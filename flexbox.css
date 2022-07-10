@@ -1,0 +1,23 @@
+.rodapePrincipal-navMap-list{
+	display: flex;
+	flex-flow: column wrap;
+	height: 255px;
+}
+
+.formasPagamento{
+    display: inline;
+    align-items: center;
+    justify-content: space-between;
+}
+
+@media(max-width: 768px){
+
+    .container {
+		width: 85%;	
+	}
+
+    .rodapePrincipal-navMap-list{
+		height: auto;
+	}
+
+}

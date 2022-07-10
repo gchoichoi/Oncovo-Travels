@@ -1,0 +1,110 @@
+.banner-image{
+    background-image: url("./imagens/banner.jpg");
+    object-position: 50% , 10% ;  
+    background-size: cover;
+    height: 400px;
+}
+
+.formulario{
+    margin: 5px;
+}
+
+.banner-promocao{
+    background-image: url("./imagens/santorini.jpg");
+    background-size: cover;
+    height: 400px;
+}
+
+.espacamento{
+    padding: auto;
+    margin: auto;
+}
+
+h2 , h4, h6{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+h6{
+    color: #999;
+    font-size: 14px;
+    text-decoration: none;
+}
+
+.card-posicao-imagem{
+    object-fit: cover;
+    height: 200px;
+}
+
+.carousel-posicao-imagem{
+    object-fit: cover;
+    height: 400px;
+}
+
+#imgCarousel{
+    width: 900px;
+    height: 400px;
+}
+
+.legenda{
+    color: #FFF;
+	background-color: rgba(0, 0, 0, .3);
+	padding: 20px;
+	width: 80%;
+	border-radius: 5px; 
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+}
+
+.prevnext-button{
+    background: none;
+    border: none;
+}
+
+.rodapePrincipal {
+	padding-top: 20px;
+}
+
+.rodapePrincipal .subtitulo {
+	color: #FFF;
+}
+
+.rodapePrincipal-navMap-link {
+	text-decoration: none;
+	color: #FFF;
+	margin-top: 10px;
+    font-size: .9em;
+    
+}
+
+a:hover{
+    color: rgb(216, 216, 216);
+    text-decoration: none;
+}
+
+
+.navmap-list-title {
+	font-weight: 700;
+	font-size: 1.3em;
+	margin: .9em 0;
+	padding-left: .3em;
+	padding-top: .2em;
+	padding-bottom: .2em;
+    color: #FFF; border-left: 4px solid #FFF
+}
+
+.navmap-list-title + .rodapePrincipal-navMap-link {
+	margin-top: 0;
+}
+
+
+footer {
+	padding: 20px;
+	margin-top: 10px;
+}
+
+footer address:last-child {
+	margin-bottom: 0;
+}

@@ -9,7 +9,7 @@ import br.com.connectionDB.model.Destino;
 
 public class DestinoDAO {
 
-	public void listarPessoas() {
+	public void listarDestino() {
 		String sql = "SELECT * FROM DESTINO";
 		
 		Connection connection = null;
@@ -29,7 +29,7 @@ public class DestinoDAO {
 		}
 	}
 	
-	public void salvaPessoa(Destino destino) {
+	public void salvaDestino(Destino destino) {
 		String sql = "INSERT INTO DESTINO VALUES(?, ?)";
 		Connection connection = null;
 		PreparedStatement pstm = null;
@@ -121,4 +121,5 @@ public class DestinoDAO {
 			e.printStackTrace();
 		}
 	}
+
 }
